@@ -1,11 +1,15 @@
 body {
-  padding: 50px;
+  padding: 10px 40px 20px 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 a {
   color: #00B7FF;
 }
-.tools a {
+.cont {
+  margin: 0 auto;
+  width: 1000px;
+}
+.cont .tools a {
   border: 1px solid black;
   height: 30px;
   line-height: 30px;
@@ -17,7 +21,22 @@ a {
   color: black;
   font-weight: bold;
 }
-canvas {
+.cont canvas {
   margin-top: 20px;
   border: 1px solid #CCC;
+}
+.cont .footer {
+  margin-top: 10px;
+}
+.cont .footer a {
+  text-decoration: none;
+  color: #444;
+  font-size: 20px;
+}
+.cont .footer a:hover {
+  text-decoration: underline;
+}
+.cont .footer a#twitter {
+  color: #66D9FF;
+  float: right;
 }

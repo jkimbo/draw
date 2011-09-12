@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 10px 40px 20px 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,20 +7,41 @@ a {
   color: #00B7FF;
 }
 
-.tools a {
-    border: 1px solid black;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 10px;
-    vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    font-weight: bold;
+.cont {
+    margin: 0 auto;
+    width: 1000px;
+    .tools a {
+        border: 1px solid black;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-weight: bold;
+    }
+
+    canvas {
+        margin-top: 20px;
+        border: 1px solid #CCC;
+    }
+
+    .footer {
+        margin-top: 10px;
+        a {
+            text-decoration: none;
+            color: #444;
+            font-size: 20px;
+            &:hover {
+                text-decoration: underline;
+            }
+            &#twitter {
+                color: #66D9FF;
+                float: right;
+            }
+        }
+    }
 }
 
-canvas {
-    margin-top: 20px;
-    border: 1px solid #CCC;
-}
